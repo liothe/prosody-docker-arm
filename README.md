@@ -9,4 +9,6 @@ INSTRUCTIONS
 
 3. Edit "prosody.cfg.lua" config file to your preferences
 
-4. to build & run: "docker build -t liothe/xmppserver . && ./run-prosody
+4. to build & run: 
+	docker build -t liothe/xmppserver . \
+	&& ./run-prosody
