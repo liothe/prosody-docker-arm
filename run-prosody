@@ -1,0 +1,9 @@
+#!/bin/bash
+docker run \
+--name prosody \
+-v /srv/prosody:/var/lib/prosody \
+-p 5222:5222 \
+-p 5269:5269 \
+-p 5285:5285 \
+-d \
+liothe/xmppserver
